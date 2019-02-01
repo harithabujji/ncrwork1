@@ -25,6 +25,6 @@ void main()
 	printf("Addition of two numbers : %d", add(a, b));
 	printf("\n Subtraction of two numbers : %d", sub(a, b));
 	printf("\n Multiplication of two numbers : %d", mul(a, b));
-	printf("\n Multiplication of two numbers : %d", div(a, b));
+	printf("\n Division of two numbers : %d", div(a, b));
 	getchar();
 }
