@@ -7,6 +7,10 @@ int sub(int a,int b)
 {
 	return a - b;
 }
+int mul(int a, int b)
+{
+	return a*b;
+}
 void main()
 {
 	int a, b;
@@ -15,5 +19,6 @@ void main()
 	getchar();
 	printf("Addition of two numbers : %d", add(a, b));
 	printf("\n Subtraction of two numbers : %d", sub(a, b));
+	printf("\n Multiplication of two numbers : %d", mul(a, b));
 	getchar();
 }
